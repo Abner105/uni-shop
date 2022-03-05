@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/information/information",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/goods/goods",
+    "pages/we/we"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-shop",
+    "navigationBarBackgroundColor": "#c41e00",
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#c41e00",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "资讯",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-active.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "text": "会员",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "static/icon/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

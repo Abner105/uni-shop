@@ -1,0 +1,1 @@
+<view><goodlist vue-id="576f0adc-1" goods="{{goods}}" bind:__l="__l"></goodlist><view hidden="{{!(show)}}" class="bottom">到底了</view></view>
