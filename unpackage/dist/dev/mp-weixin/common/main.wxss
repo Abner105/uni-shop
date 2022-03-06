@@ -41,4 +41,7 @@
 .icon-ziyuan:before {
   content: "\e60d";
 }
+page{
+	height: 100vh;
+}
 

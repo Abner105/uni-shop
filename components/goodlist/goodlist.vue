@@ -1,7 +1,6 @@
 <template>
-
 		<view class="goodslist">
-			<view class="good-item" v-for="item in goods" :key="item.goods_id">
+			<view @click="itemClick(item.goods_id)" class="good-item" v-for="item in goods" :key="item.goods_id">
 				<image src="../../static/hmlogo.png" mode="widthFix"></image>
 				<view class="price">
 					<text>￥{{item.goods_price}}</text>
@@ -22,7 +21,14 @@
 
 			};
 		},
-		props: ["goods"]
+		props: ["goods"],
+		methods:{
+			itemClick(id){
+				uni.navigateTo({
+					url:"../../pages/goodsDetail/goodsDetail?id="+id
+				})
+			}
+		}
 	}
 </script>
 

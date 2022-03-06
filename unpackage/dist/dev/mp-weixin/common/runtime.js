@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/goodlist/goodlist":1};
+/******/ 		var cssChunks = {"components/goodlist/goodlist":1,"components/uni-goods-nav/uni-goods-nav":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/goodlist/goodlist":"components/goodlist/goodlist"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/goodlist/goodlist":"components/goodlist/goodlist","components/uni-goods-nav/uni-goods-nav":"components/uni-goods-nav/uni-goods-nav"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

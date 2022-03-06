@@ -5,7 +5,9 @@
     "pages/cart/cart",
     "pages/member/member",
     "pages/goods/goods",
-    "pages/we/we"
+    "pages/we/we",
+    "pages/group/group",
+    "pages/goodsDetail/goodsDetail"
   ],
   "subPackages": [],
   "window": {

@@ -94,7 +94,7 @@ var components
 try {
   components = {
     goodlist: function() {
-      return __webpack_require__.e(/*! import() | components/goodlist/goodlist */ "components/goodlist/goodlist").then(__webpack_require__.bind(null, /*! @/components/goodlist/goodlist.vue */ 57))
+      return __webpack_require__.e(/*! import() | components/goodlist/goodlist */ "components/goodlist/goodlist").then(__webpack_require__.bind(null, /*! @/components/goodlist/goodlist.vue */ 80))
     }
   }
 } catch (e) {
